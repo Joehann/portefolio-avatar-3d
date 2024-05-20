@@ -3,7 +3,7 @@ const AvatarActions = ({ selectedAvatar, setSelectedAvatar }) => {
     { name: "justBreath", label: "Just breath" },
     { name: "orchestraConductor", label: "Maestro" },
     { name: "jujitsu", label: "Jujitsu" },
-    { name: "supporter", label: "Supporter" },
+    { name: "supporter", label: "Team Player" },
   ]
   return (
     <div className="avatar-actions">

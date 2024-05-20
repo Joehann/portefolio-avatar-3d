@@ -64,6 +64,7 @@
   background: none;
   border: solid 2px #eee;
   border-radius: 16px;
+  padding: 6px;
 }
 
 .avatar-actions button:hover {
@@ -196,7 +197,6 @@ footer p {
   .avatar-actions button {
     width: 80px;
     height: 80px;
-    padding: 4px;
   }
 
   .github img,

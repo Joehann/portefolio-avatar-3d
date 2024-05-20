@@ -1,0 +1,63 @@
+.form-container {
+  position: fixed;
+  left: 50%;
+  top: 110px;
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 400px;
+  padding: 10px 20px;
+}
+
+.form-container h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.form-container h1.title-open {
+  animation: 800ms fadeIn;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
+}
+
+.form-container p {
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity 5000ms ease-in;
+}
+
+.form-container p.p1-open {
+  animation: 1s fadeIn;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+}
+
+.form-container p.p2-open {
+  animation: 1s fadeIn;
+  animation-delay: 700ms;
+  animation-fill-mode: forwards;
+}
+
+.form-container a {
+  color: rgb(24, 24, 90);
+  transition: color 300ms;
+}
+
+.form-container a:hover {
+  color: rgb(244, 244, 244);
+}

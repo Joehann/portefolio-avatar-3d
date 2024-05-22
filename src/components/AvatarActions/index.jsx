@@ -1,7 +1,7 @@
 const AvatarActions = ({ selectedAvatar, setSelectedAvatar }) => {
   const avatarButtons = [
     { name: "justBreath", label: "Just breath" },
-    { name: "orchestraConductor", label: "Maestro" },
+    { name: "orchestraConductor", label: "Musician" },
     { name: "jujitsu", label: "Jujitsu" },
     { name: "supporter", label: "Team Player" },
   ]

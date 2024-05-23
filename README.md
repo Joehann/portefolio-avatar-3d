@@ -4,7 +4,7 @@ I thought of this portfolio as a very simple yet creative page. I've tried to pa
 
 The 3D avatar was created with avaturn.me
 
-The fully frontend website is made with React (with ViteJS) + ThreeJS, pure css.
+This fully frontend website is made with React (with ViteJS) + ThreeJS, pure css.
 
 # React + Vite
 

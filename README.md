@@ -1,3 +1,11 @@
+# Porfolio with 3D avatar
+
+I thought of this portfolio as a very simple yet creative page. I've tried to pay attention to small details.
+
+The 3D avatar was created with avaturn.me
+
+The fully frontend website is made with React (with ViteJS) + ThreeJS, pure css.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
